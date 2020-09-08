@@ -8,7 +8,7 @@ body {
 
 h2 {
     font-family: 'Play', sans-serif;
-    /*color: rgb(20, 19, 19); */
+    color: orangered;
     text-shadow: black 0.1em 0.1em 0.09em;
     position: relative;
     font-size: 25px;
@@ -46,6 +46,20 @@ header {
     margin-top: 5px;
     box-shadow: rgba(106, 129, 129, 0.37);
 }
+/*------------IMAGENS ----------------*/
+#imgtopo{
+    width: 50%;
+    position: absolute;
+    left: 900px;
+}
+#imgfinal{
+    width: 30%;
+    position: relative;
+    top: 5%;
+    padding-top: 3%;
+    left: 500px;
+}
+
 section#cont{
     font: normal 16pt 'Acme';
     color: black;
