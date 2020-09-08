@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 body {
-   
-   background-color: rgba(175, 78, 40, 0.87);
+    background-color: rgba(175, 78, 40, 0.87);
+}
+.textoanimado{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    border-right: 2px solid black;
+
 }
 
 h2 {
