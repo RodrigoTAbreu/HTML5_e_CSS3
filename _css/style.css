@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body {
     background-color: rgba(175, 78, 40, 0.87);
 }
@@ -10,13 +11,16 @@ body {
     position: absolute;
     margin-left: 12%;    
     font-family: 'Acme',monospace;
+    font-size: 20px;
 }
+
+
 .anime{
     -moz-animation: 5s;
     -webkit-animation: 5s;
     animation-duration: 3s;
     animation-name: nome;
-    color: rgb(7, 7, 7);
+    color: rgba(255, 255, 255,0.980);
 }
 
 @keyframes nome{
@@ -29,6 +33,10 @@ body {
         width: 100%;
 
     }
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+
 }
 
 h2 {
@@ -50,7 +58,7 @@ hr{
     border-width: 1px 1px 0;
     border-style: solid;
     border-color: rgba(22, 19, 20, 0.877); 
-    width: 55%;
+    width: 70%;
     margin-left: 180px;
     margin-right: 50px;
 }
@@ -99,6 +107,7 @@ section#cont{
 nav#menu ul{
     list-style: none;   
 }
+/*
 .efeito-grow{
     display: inline-block;
     vertical-align: middle;
@@ -112,11 +121,8 @@ nav#menu ul{
 }
 .efeito-grow: hover, .efeito-grow: focus, .efeito-grow:active{
     -webkit-transform: scale(2.91)
-}
-
-    
+}*/
 nav#menu li{
-   
     display: inline;
     font: normal 20px 'Acme';
     font-family: 'Play', sans-serif;
@@ -131,6 +137,7 @@ nav#menu li:hover{
     background-color: rgb(238, 78, 50);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
     border-radius: 25%;
+   /* font-family: 'Press Start 2P';*/
 }
 nav#menu {
     display: flexbox;
@@ -188,5 +195,6 @@ section{
 footer{
     text-align: center;
     position: relative;
+    font-family: 'Press Start 2P', cursive;
 }
 
