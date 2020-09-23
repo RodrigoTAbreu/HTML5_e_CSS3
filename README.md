@@ -1,2 +1,2 @@
 # HTML5_e_CSS3
- Arquivos do Desafio Grupo Novo FUTURo
+ Página construida apenas com HTML5 e CSS3 do Desafio Grupo Novo FUTURO DEV.
